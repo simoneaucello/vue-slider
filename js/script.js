@@ -34,7 +34,7 @@ createApp({
         },
       ],
       counter: 0,
-
+      isPlayerActive: true
     }
   },
 
@@ -51,10 +51,17 @@ createApp({
       }
     },
 
+    autoPlay(){
+      setInterval(() => {
+        if(this.isPlayerActive){
+          this.nextPrev(true)
+        }
+      }, 3000);
+    }
   },
 
   mounted(){
-
+    this.autoPlay();
   }
 
 
