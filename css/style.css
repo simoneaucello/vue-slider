@@ -40,13 +40,13 @@ div.my-next{
 }
 
 div.my-previous{
-  left: 22rem;
-  top: 47rem;
+  left: 9rem;
+  top: 46rem;
 }
 
 div.my-next{
-  right: 22rem;
-  top: 47rem;
+  right: 9rem;
+  top: 46rem;
 }
 
 div.my-previous > span::after{
